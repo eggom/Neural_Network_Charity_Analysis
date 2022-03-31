@@ -20,6 +20,7 @@ In this section we will try to answer the following questions.
 <br/><br/>
 
 **What variable(s) are considered the target(s) for your model?**
+<br/>
 Our target variable will be ```IS_SUCCESSFUL```which encodes if the money was used effectively.
 <br/><br/>
 
