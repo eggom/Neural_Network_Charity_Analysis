@@ -12,7 +12,7 @@ This repo contains several NN ML Models (binary classifiers) to help the foundat
 We have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization
 
 
-## Data Preprocessing
+### Data Preprocessing
 In this section we will try to answer the following questions.
 <br/><br/>
 
