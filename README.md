@@ -29,11 +29,10 @@ Our target variable will be ```IS_SUCCESSFUL```which encodes if the money was us
 The rest of the variables in the CSV could be considered to be our features however some of them were dropped due to several reasons:
 * *EIN* and *NAME*: Identification columns. High Cardinality
 * *STATUS* and *SPECIAL_CONSIDERATIONS*: They were having very skewed distributions towards the target variable, hence its removal.
-<br/><br/><br/>
+<br/><br/>
 
 ### Compiling, Training, and Evaluating the Model
-<br/>
-
+<br/><br/>
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 <br/>
 For the optimal model it was selected an ANN with 3 hidden layers starting with 24 neurons followed by 15 and finally 4 with activation functions of SOFTMAX. Final output layer, 1 neuron with Sigmoid. Number of inputs were 34 corresponding with the number of variables after dropping and one-hot-encoding.
